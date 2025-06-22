@@ -50,50 +50,50 @@ const About = () => {
       {/* Page Content */}
       <div className="page-content">
         <section>
-          <h2 style={{color: 'var(--deep-plum)', marginBottom: '1.5rem'}}>Our Story</h2>
-          <p style={{marginBottom: '1.5rem'}}>
+          <h2 className="about-section-title">Our Story</h2>
+          <p className="about-paragraph">
             At WishIn Bloom, we believe that every special moment in life deserves to be celebrated with something truly meaningful. Our journey began with a simple passion: creating handcrafted gifts that carry the weight of love, thoughtfulness, and genuine care.
           </p>
-          <p style={{marginBottom: '1.5rem'}}>
+          <p className="about-paragraph-margin">
             Each piece we create is more than just a gift—it's a heartfelt expression designed to bloom with meaning in the lives of those who receive it. From the tender moments of a baptism to the joyous celebration of graduation, we understand that life's milestones deserve something as unique as the people celebrating them.
           </p>
         </section>
 
-        <section style={{marginTop: '3rem'}}>
-          <h2 style={{color: 'var(--deep-plum)', marginBottom: '1.5rem'}}>Our Handcrafted Approach</h2>
-          <p style={{marginBottom: '1.5rem'}}>
+        <section className="about-handcrafted-section">
+          <h2 className="about-section-title-deep-plum">Our Handcrafted Approach</h2>
+          <p className="about-section-paragraph">
             Every creation at WishIn Bloom is carefully handcrafted with attention to detail that only comes from genuine care and passion. We source the finest materials and combine traditional techniques with modern artistry to create pieces that are both beautiful and meaningful.
           </p>
-          <p style={{marginBottom: '1.5rem'}}>
+          <p className="about-section-paragraph">
             Our artisans take pride in creating unique pieces that reflect the significance of each occasion. Whether it's incorporating personal touches, selecting the perfect color palette, or adding custom elements, we ensure that every gift tells its own special story.
           </p>
         </section>
 
-        <section style={{marginTop: '3rem'}}>
-          <h2 style={{color: 'var(--deep-plum)', marginBottom: '1.5rem'}}>Why Choose WishIn Bloom?</h2>
-          <ul style={{listStyle: 'none', padding: '0'}}>
-            <li style={{marginBottom: '1rem', paddingLeft: '1.5rem', position: 'relative'}}>
-              <span style={{position: 'absolute', left: '0', color: 'var(--dusty-rose)'}}>🌸</span>
+        <section className="about-why-section">
+          <h2 className="about-why-title">Why Choose WishIn Bloom?</h2>
+          <ul className="about-why-list">
+            <li className="about-why-list-item">
+              <span className="about-why-icon">🌸</span>
               <strong>Personalized Attention:</strong> Each order receives individual care and attention to ensure it perfectly captures your intentions.
             </li>
-            <li style={{marginBottom: '1rem', paddingLeft: '1.5rem', position: 'relative'}}>
-              <span style={{position: 'absolute', left: '0', color: 'var(--dusty-rose)'}}>🌸</span>
+            <li className="about-why-list-item">
+              <span className="about-why-icon">🌸</span>
               <strong>Quality Materials:</strong> We use only the finest materials to ensure your gifts are as enduring as the memories they represent.
             </li>
-            <li style={{marginBottom: '1rem', paddingLeft: '1.5rem', position: 'relative'}}>
-              <span style={{position: 'absolute', left: '0', color: 'var(--dusty-rose)'}}>🌸</span>
+            <li className="about-why-list-item">
+              <span className="about-why-icon">🌸</span>
               <strong>Meaningful Design:</strong> Every element is thoughtfully chosen to reflect the significance of your special occasion.
             </li>
-            <li style={{marginBottom: '1rem', paddingLeft: '1.5rem', position: 'relative'}}>
-              <span style={{position: 'absolute', left: '0', color: 'var(--dusty-rose)'}}>🌸</span>
+            <li className="about-why-list-item">
+              <span className="about-why-icon">🌸</span>
               <strong>Custom Options:</strong> We work with you to create truly unique pieces that perfectly suit your needs and preferences.
             </li>
           </ul>
         </section>
 
-        <section style={{marginTop: '3rem', textAlign: 'center', padding: '2rem', backgroundColor: 'var(--sage-green)', borderRadius: '15px', color: 'var(--ivory-white)'}}>
-          <h2 style={{marginBottom: '1rem'}}>Let's Create Something Beautiful Together</h2>
-          <p style={{marginBottom: '1.5rem'}}>
+        <section className="about-cta-section">
+          <h2 className="about-cta-title">Let's Create Something Beautiful Together</h2>
+          <p className="about-cta-paragraph">
             Ready to find the perfect gift that will bloom with meaning? We'd love to help you create something truly special for your next celebration.
           </p>
           <a href="/contact" className="cta-button">Get in Touch</a>
@@ -126,7 +126,7 @@ const About = () => {
         </div>
         
         <div className="footer-bottom">
-          <p>&copy; 2024 WishIn Bloom. All rights reserved.</p>
+          <p>&copy; 2025 WishIn Bloom. All rights reserved.</p>
         </div>
       </footer>
 

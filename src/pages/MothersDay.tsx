@@ -7,12 +7,12 @@ const MothersDay = () => {
     {
       name: "Nurturing Heart Collection",
       description: "A beautiful set of handcrafted items celebrating the nurturing spirit of motherhood, including a custom jewelry holder and blessing card.",
-      image: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7"
+      image: "/images/mothers-day/mothersday1.jpg"
     },
     {
       name: "Garden of Love Terrarium",
       description: "Hand-assembled succulent garden representing the growth and care that mothers provide, complete with meaningful stones.",
-      image: "https://images.unsplash.com/photo-1518495973542-4542c06a5843"
+      image: "/images/mothers-day/mothersday2.jpg"
     },
     {
       name: "Memory Lane Photo Display",

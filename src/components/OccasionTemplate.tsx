@@ -59,8 +59,8 @@ const OccasionTemplate: React.FC<OccasionTemplateProps> = ({ title, description,
 
       {/* Page Content */}
       <div className="page-content">
-        <div style={{textAlign: 'center', marginBottom: '3rem'}}>
-          <p style={{fontSize: '1.3rem', color: 'var(--sage-green)', lineHeight: '1.8'}}>
+        <div className="occasion-description">
+          <p className="occasion-description-text">
             {description}
           </p>
         </div>
@@ -80,9 +80,9 @@ const OccasionTemplate: React.FC<OccasionTemplateProps> = ({ title, description,
           </div>
         </section>
 
-        <div style={{marginTop: '3rem', textAlign: 'center', padding: '2rem', backgroundColor: 'var(--sage-green)', borderRadius: '15px', color: 'var(--ivory-white)'}}>
-          <h2 style={{marginBottom: '1rem'}}>Ready to Create Something Special?</h2>
-          <p style={{marginBottom: '1.5rem'}}>
+        <div className="custom-order-cta">
+          <h2 className="custom-order-cta-title">Ready to Create Something Special?</h2>
+          <p className="custom-order-cta-description">
             Let us help you design the perfect {title.toLowerCase()} gift that will be treasured for years to come.
           </p>
           <a href="/contact" className="cta-button">Start Your Custom Order</a>
@@ -115,7 +115,7 @@ const OccasionTemplate: React.FC<OccasionTemplateProps> = ({ title, description,
         </div>
         
         <div className="footer-bottom">
-          <p>&copy; 2024 WishIn Bloom. All rights reserved.</p>
+          <p>&copy; 2025 WishIn Bloom. All rights reserved.</p>
         </div>
       </footer>
 

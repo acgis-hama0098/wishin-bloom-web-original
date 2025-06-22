@@ -49,44 +49,44 @@ const RefundPolicy = () => {
 
       {/* Page Content */}
       <div className="page-content">
-        <div style={{marginBottom: '2rem'}}>
-          <p style={{fontSize: '1.1rem', color: 'var(--warm-taupe)', marginBottom: '2rem'}}>
+        <div className="refund-policy-section">
+          <p className="refund-effective-date">
             <strong>Effective Date:</strong> [Date]
           </p>
           
-          <h2 style={{color: 'var(--charcoal-gray)', marginBottom: '1rem'}}>Custom Order Policy</h2>
-          <p style={{marginBottom: '1.5rem'}}>
+          <h2 className="refund-section-title">Custom Order Policy</h2>
+          <p className="refund-section-margin-bottom">
             As all WishIn Bloom items are custom-made and handcrafted specifically for each customer, we generally do not accept returns or offer refunds on completed custom orders. Each piece is created uniquely according to your specifications and requirements.
           </p>
 
-          <h2 style={{color: 'var(--charcoal-gray)', marginBottom: '1rem'}}>Quality Guarantee</h2>
-          <p style={{marginBottom: '1.5rem'}}>
+          <h2 className="refund-section-title">Quality Guarantee</h2>
+          <p className="refund-section-paragraph">
             We stand behind the quality of our craftsmanship. If your item arrives damaged due to shipping or has a manufacturing defect, please contact us within 48 hours of delivery. We will work with you to resolve the issue, which may include:
           </p>
-          <ul style={{marginBottom: '1.5rem', paddingLeft: '2rem'}}>
+          <ul className="refund-policy-list">
             <li>Repair or replacement of the damaged item</li>
             <li>Partial or full refund (at our discretion)</li>
             <li>Store credit for future purchases</li>
           </ul>
 
-          <h2 style={{color: 'var(--charcoal-gray)', marginBottom: '1rem'}}>Order Modifications</h2>
-          <p style={{marginBottom: '1.5rem'}}>
+          <h2 className="refund-section-title">Order Modifications</h2>
+          <p className="refund-section-margin-bottom">
             Changes to your custom order can only be made before production begins. Once we start crafting your item, modifications may not be possible. Please review your order details carefully before confirmation.
           </p>
 
-          <h2 style={{color: 'var(--charcoal-gray)', marginBottom: '1rem'}}>Cancellation Policy</h2>
-          <p style={{marginBottom: '1.5rem'}}>
+          <h2 className="refund-section-header">Cancellation Policy</h2>
+          <p className="refund-section-paragraph-bottom">
             Orders may be cancelled within 24 hours of placement, before production begins. Once production has started, cancellations may not be possible due to the custom nature of our work.
           </p>
 
-          <h2 style={{color: 'var(--charcoal-gray)', marginBottom: '1rem'}}>Exceptional Circumstances</h2>
-          <p style={{marginBottom: '1.5rem'}}>
+          <h2 className="refund-section-header">Exceptional Circumstances</h2>
+          <p className="refund-section-paragraph-bottom">
             We understand that sometimes unexpected situations arise. If you have concerns about your order, please reach out to us. We will review each situation individually and work with you to find a fair solution.
           </p>
 
-          <h2 style={{color: 'var(--charcoal-gray)', marginBottom: '1rem'}}>How to Contact Us</h2>
-          <p style={{marginBottom: '1.5rem'}}>
-            If you need to report an issue with your order or have questions about our return policy, please <a href="/contact" style={{color: 'var(--dusty-rose)'}}>contact us</a> as soon as possible. Include your order details and photos if reporting damage.
+          <h2 className="refund-section-header">How to Contact Us</h2>
+          <p className="refund-section-paragraph-bottom">
+            If you need to report an issue with your order or have questions about our return policy, please <a href="/contact" className="refund-contact-link">contact us</a> as soon as possible. Include your order details and photos if reporting damage.
           </p>
         </div>
       </div>
@@ -117,7 +117,7 @@ const RefundPolicy = () => {
         </div>
         
         <div className="footer-bottom">
-          <p>&copy; 2024 WishIn Bloom. All rights reserved.</p>
+          <p>&copy; 2025 WishIn Bloom. All rights reserved.</p>
         </div>
       </footer>
 

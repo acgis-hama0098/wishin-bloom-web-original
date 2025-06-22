@@ -7,12 +7,12 @@ const Christmas = () => {
     {
       name: "Winter Wonder Centerpiece",
       description: "Magical holiday centerpiece featuring handcrafted ornaments, warm lighting, and natural elements that capture Christmas magic.",
-      image: "https://images.unsplash.com/photo-1500673922987-e212871fec22"
+      image: "/images/christmas/christmas1.jpg"
     },
     {
       name: "Family Traditions Advent Set",
       description: "Beautiful wooden advent calendar with personalized family touches and small handmade surprises for each day.",
-      image: "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07"
+      image: "/images/christmas/christmas2.jpg"
     },
     {
       name: "Cozy Christmas Memories Box",

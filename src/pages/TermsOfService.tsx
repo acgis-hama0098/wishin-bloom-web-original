@@ -49,42 +49,42 @@ const TermsOfService = () => {
 
       {/* Page Content */}
       <div className="page-content">
-        <div style={{marginBottom: '2rem'}}>
-          <p style={{fontSize: '1.1rem', color: 'var(--warm-taupe)', marginBottom: '2rem'}}>
+        <div className="tos-section">
+          <p className="tos-effective-date">
             <strong>Effective Date:</strong> [Date]
           </p>
           
-          <h2 style={{color: 'var(--charcoal-gray)', marginBottom: '1rem'}}>Acceptance of Terms</h2>
-          <p style={{marginBottom: '1.5rem'}}>
+          <h2 className="tos-heading">Acceptance of Terms</h2>
+          <p className="tos-paragraph">
             By accessing and using the WishIn Bloom website and services, you accept and agree to be bound by the terms and provision of this agreement.
           </p>
 
-          <h2 style={{color: 'var(--charcoal-gray)', marginBottom: '1rem'}}>Custom Order Services</h2>
-          <p style={{marginBottom: '1.5rem'}}>
+          <h2 className="tos-heading">Custom Order Services</h2>
+          <p className="tos-paragraph">
             WishIn Bloom specializes in handcrafted, custom-made gifts for special occasions. All items are made to order and may require lead time for completion. We will communicate estimated completion times when you place your order.
           </p>
 
-          <h2 style={{color: 'var(--charcoal-gray)', marginBottom: '1rem'}}>Order Process</h2>
-          <ul style={{marginBottom: '1.5rem', paddingLeft: '2rem'}}>
+          <h2 className="tos-heading">Order Process</h2>
+          <ul className="tos-list">
             <li>Initial consultation to discuss your custom gift requirements</li>
             <li>Written confirmation of order details and pricing</li>
             <li>Production timeline and delivery arrangements</li>
             <li>Payment terms will be communicated during the order process</li>
           </ul>
 
-          <h2 style={{color: 'var(--charcoal-gray)', marginBottom: '1rem'}}>Intellectual Property</h2>
-          <p style={{marginBottom: '1.5rem'}}>
+          <h2 className="tos-heading">Intellectual Property</h2>
+          <p className="tos-paragraph">
             All custom designs created by WishIn Bloom remain the intellectual property of WishIn Bloom unless otherwise agreed upon in writing.
           </p>
 
-          <h2 style={{color: 'var(--charcoal-gray)', marginBottom: '1rem'}}>Limitation of Liability</h2>
-          <p style={{marginBottom: '1.5rem'}}>
+          <h2 className="tos-heading">Limitation of Liability</h2>
+          <p className="tos-paragraph">
             WishIn Bloom's liability is limited to the cost of the custom item ordered. We are not liable for any indirect, incidental, or consequential damages.
           </p>
 
-          <h2 style={{color: 'var(--charcoal-gray)', marginBottom: '1rem'}}>Contact Information</h2>
-          <p style={{marginBottom: '1.5rem'}}>
-            For questions about these Terms of Service, please contact us through our <a href="/contact" style={{color: 'var(--dusty-rose)'}}>contact page</a>.
+          <h2 className="tos-heading">Contact Information</h2>
+          <p className="tos-paragraph">
+            For questions about these Terms of Service, please contact us through our <a href="/contact" className="tos-link">contact page</a>.
           </p>
         </div>
       </div>
@@ -115,7 +115,7 @@ const TermsOfService = () => {
         </div>
         
         <div className="footer-bottom">
-          <p>&copy; 2024 WishIn Bloom. All rights reserved.</p>
+          <p>&copy; 2025 WishIn Bloom. All rights reserved.</p>
         </div>
       </footer>
 

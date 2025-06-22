@@ -7,12 +7,12 @@ const Baptism = () => {
     {
       name: "Sacred Blessing Keepsake Box",
       description: "A beautifully handcrafted memory box to treasure baptism mementos, featuring delicate engravings and soft ivory finish.",
-      image: "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07"
+      image: "/images/baptism/baptism1.jpg"
     },
     {
       name: "Guardian Angel Mobile",
       description: "Gentle, handmade mobile featuring guardian angels and soft pastels, perfect for the nursery.",
-      image: "https://images.unsplash.com/photo-1518495973542-4542c06a5843"
+      image: "/images/baptism/baptism2.jpg"
     },
     {
       name: "Blessed First Steps Frame",

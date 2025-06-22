@@ -150,7 +150,7 @@ const Index = () => {
         </div>
         
         <div className="footer-bottom">
-          <p>&copy; 2024 WishIn Bloom. All rights reserved.</p>
+          <p>&copy; 2025 WishIn Bloom. All rights reserved.</p>
         </div>
       </footer>
 

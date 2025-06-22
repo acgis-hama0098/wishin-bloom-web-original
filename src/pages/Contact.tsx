@@ -49,9 +49,9 @@ const Contact = () => {
 
       {/* Page Content */}
       <div className="page-content">
-        <div style={{textAlign: 'center', marginBottom: '3rem'}}>
-          <h2 style={{color: 'var(--deep-plum)', marginBottom: '1rem'}}>Let's Create Something Beautiful Together</h2>
-          <p style={{fontSize: '1.2rem', color: 'var(--sage-green)'}}>
+        <div className="contact-intro">
+          <h2 className="contact-title">Let's Create Something Beautiful Together</h2>
+          <p className="contact-intro-text">
             We'd love to hear about your special occasion and help you create the perfect meaningful gift.
           </p>
         </div>
@@ -69,7 +69,11 @@ const Contact = () => {
           
           <div className="form-group">
             <label htmlFor="occasion">Occasion (Optional)</label>
-            <select id="occasion" name="occasion" style={{width: '100%', padding: '1rem', border: '2px solid var(--sage-green)', borderRadius: '10px', fontSize: '1rem'}}>
+            <select
+              id="occasion"
+              name="occasion"
+              className="occasion-select"
+            >
               <option value="">Select an occasion</option>
               <option value="baptism">Baptism</option>
               <option value="mothers-day">Mother's Day</option>
@@ -93,18 +97,18 @@ const Contact = () => {
             <textarea id="message" name="message" placeholder="Tell us about your vision, the occasion, any special requirements, or ask us any questions..." required></textarea>
           </div>
           
-          <button type="submit" className="cta-button" style={{width: '100%'}}>Send Message</button>
+          <button type="submit" className="cta-button full-width">Send Message</button>
         </form>
 
-        <div style={{marginTop: '3rem', textAlign: 'center', padding: '2rem', backgroundColor: 'var(--ivory-white)', borderRadius: '15px', border: '2px solid var(--dusty-rose)'}}>
-          <h3 style={{color: 'var(--deep-plum)', marginBottom: '1rem'}}>Get In Touch</h3>
-          <p style={{marginBottom: '0.5rem', color: 'var(--sage-green)'}}>
+        <div className="contact-info-box">
+          <h3 className="contact-info-title">Get In Touch</h3>
+          <p className="contact-info-text">
             <strong>Response Time:</strong> We typically respond within 24-48 hours
           </p>
-          <p style={{marginBottom: '0.5rem', color: 'var(--sage-green)'}}>
+          <p className="contact-info-text">
             <strong>Custom Orders:</strong> Lead time varies based on complexity and current orders
           </p>
-          <p style={{color: 'var(--sage-green)'}}>
+          <p className="contact-info-text">
             <strong>Consultations:</strong> Available for special projects and events
           </p>
         </div>
@@ -136,7 +140,7 @@ const Contact = () => {
         </div>
         
         <div className="footer-bottom">
-          <p>&copy; 2024 WishIn Bloom. All rights reserved.</p>
+          <p>&copy; 2025 WishIn Bloom. All rights reserved.</p>
         </div>
       </footer>
 

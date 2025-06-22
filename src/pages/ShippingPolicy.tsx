@@ -49,48 +49,48 @@ const ShippingPolicy = () => {
 
       {/* Page Content */}
       <div className="page-content">
-        <div style={{marginBottom: '2rem'}}>
-          <p style={{fontSize: '1.1rem', color: 'var(--warm-taupe)', marginBottom: '2rem'}}>
+        <div className="shipping-policy-section">
+          <p className="shipping-policy-effective-date">
             <strong>Effective Date:</strong> [Date]
           </p>
           
-          <h2 style={{color: 'var(--charcoal-gray)', marginBottom: '1rem'}}>Processing Time</h2>
-          <p style={{marginBottom: '1.5rem'}}>
+          <h2 className="shipping-policy-heading">Processing Time</h2>
+          <p className="shipping-policy-margin-bottom">
             As all WishIn Bloom items are handcrafted to order, processing times vary depending on the complexity of your custom piece and current order volume. We will provide you with an estimated completion time when you place your order.
           </p>
 
-          <h2 style={{color: 'var(--charcoal-gray)', marginBottom: '1rem'}}>Shipping Methods</h2>
-          <p style={{marginBottom: '1rem'}}>We offer several shipping options:</p>
-          <ul style={{marginBottom: '1.5rem', paddingLeft: '2rem'}}>
+          <h2 className="shipping-policy-subheading">Shipping Methods</h2>
+          <p className="shipping-policy-shipping-options">We offer several shipping options:</p>
+          <ul className="shipping-policy-shipping-list">
             <li><strong>Standard Shipping:</strong> 5-7 business days</li>
             <li><strong>Expedited Shipping:</strong> 2-3 business days</li>
             <li><strong>Priority Shipping:</strong> 1-2 business days</li>
             <li><strong>Local Delivery:</strong> Available in select areas</li>
           </ul>
 
-          <h2 style={{color: 'var(--charcoal-gray)', marginBottom: '1rem'}}>Shipping Costs</h2>
-          <p style={{marginBottom: '1.5rem'}}>
+          <h2 className="shipping-policy-section-heading">Shipping Costs</h2>
+          <p className="shipping-policy-margin-bottom">
             Shipping costs are calculated based on the size, weight, and destination of your order. We will provide you with shipping costs before you confirm your order.
           </p>
 
-          <h2 style={{color: 'var(--charcoal-gray)', marginBottom: '1rem'}}>International Shipping</h2>
-          <p style={{marginBottom: '1.5rem'}}>
+          <h2 className="shipping-policy-section-title">International Shipping</h2>
+          <p className="shipping-policy-margin-bottom">
             We currently offer shipping within Canada and the United States. International shipping may be available for certain items - please contact us to discuss your specific needs.
           </p>
 
-          <h2 style={{color: 'var(--charcoal-gray)', marginBottom: '1rem'}}>Package Care</h2>
-          <p style={{marginBottom: '1.5rem'}}>
+          <h2 className="shipping-policy-section-title">Package Care</h2>
+          <p className="shipping-policy-margin-bottom">
             All items are carefully packaged to ensure they arrive in perfect condition. We use eco-friendly packaging materials whenever possible and include care instructions for your handcrafted items.
           </p>
 
-          <h2 style={{color: 'var(--charcoal-gray)', marginBottom: '1rem'}}>Tracking Information</h2>
-          <p style={{marginBottom: '1.5rem'}}>
+          <h2 className="shipping-policy-section-tracking">Tracking Information</h2>
+          <p className="shipping-policy-margin-bottom">
             You will receive tracking information via email once your order ships. This allows you to follow your package's journey to your door.
           </p>
 
-          <h2 style={{color: 'var(--charcoal-gray)', marginBottom: '1rem'}}>Questions?</h2>
-          <p style={{marginBottom: '1.5rem'}}>
-            If you have any questions about shipping, please don't hesitate to <a href="/contact" style={{color: 'var(--dusty-rose)'}}>contact us</a>.
+          <h2 className="shipping-policy-questions-heading">Questions?</h2>
+          <p className="shipping-policy-questions">
+            If you have any questions about shipping, please don't hesitate to <a href="/contact" className="shipping-policy-contact-link">contact us</a>.
           </p>
         </div>
       </div>
@@ -121,7 +121,7 @@ const ShippingPolicy = () => {
         </div>
         
         <div className="footer-bottom">
-          <p>&copy; 2024 WishIn Bloom. All rights reserved.</p>
+          <p>&copy; 2025 WishIn Bloom. All rights reserved.</p>
         </div>
       </footer>
 

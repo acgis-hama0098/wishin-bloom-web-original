@@ -7,18 +7,33 @@ const Communion = () => {
     {
       name: "Sacred First Steps Set",
       description: "Beautiful keepsake collection for First Communion, featuring a prayer book cover, rosary pouch, and memory box with personalized touches.",
-      image: "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07"
+      image: "/images/baptism/baptism1.jpg"
     },
     {
       name: "Blessed Chalice Display",
       description: "Elegant wooden display stand with engraved details, perfect for showcasing communion keepsakes and creating a sacred memory corner.",
-      image: "https://images.unsplash.com/photo-1518495973542-4542c06a5843"
+      image:  "/images/baptism/baptism2.jpg"
     },
     {
       name: "Faith Journey Scrapbook",
       description: "Handcrafted memory book with spaces for photos, prayers, and reflections from this holy milestone in your child's faith journey.",
-      image: "https://images.unsplash.com/photo-1582562124811-c09040d0a901"
-    }
+    image: "/images/baptism/baptism3.jpg"
+  },
+  {
+    name: "Heavenly Grace Frame",
+    description: "A delicate glass frame with gold-foil scripture, perfect for commemorating a blessed baptism moment.",
+    image: "/images/baptism/baptism4.jpg"
+  },
+  {
+    name: "Heavenly Grace Frame",
+    description: "A delicate glass frame with gold-foil scripture, perfect for commemorating a blessed baptism moment.",
+    image: "/images/first-communion/communion1.jpg"
+  },
+  {
+    name: "Heavenly Grace Frame",
+    description: "A delicate glass frame with gold-foil scripture, perfect for commemorating a blessed baptism moment.",
+    image: "/images/first-communion/communion2.jpg"
+  }
   ];
 
   return (
