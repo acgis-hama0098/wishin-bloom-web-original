@@ -20,6 +20,10 @@ import Engagement from "./pages/Engagement";
 import NewYear from "./pages/NewYear";
 import Retirement from "./pages/Retirement";
 import CasualGifts from "./pages/CasualGifts";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
+import TermsOfService from "./pages/TermsOfService";
+import ShippingPolicy from "./pages/ShippingPolicy";
+import RefundPolicy from "./pages/RefundPolicy";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -47,6 +51,10 @@ const App = () => (
           <Route path="/new-year" element={<NewYear />} />
           <Route path="/retirement" element={<Retirement />} />
           <Route path="/casual-gifts" element={<CasualGifts />} />
+          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+          <Route path="/terms-of-service" element={<TermsOfService />} />
+          <Route path="/shipping-policy" element={<ShippingPolicy />} />
+          <Route path="/refund-policy" element={<RefundPolicy />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
