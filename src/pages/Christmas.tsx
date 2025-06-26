@@ -17,7 +17,7 @@ const Christmas = () => {
     {
       name: "Cozy Christmas Memories Box",
       description: "Handcrafted storage box for Christmas ornaments and memories, lined with festive fabric and custom nameplate.",
-      image: "https://images.unsplash.com/photo-1582562124811-c09040d0a901"
+      // image: "https://images.unsplash.com/photo-1582562124811-c09040d0a901"
     }
   ];
 

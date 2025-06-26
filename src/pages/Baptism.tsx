@@ -17,7 +17,7 @@ const Baptism = () => {
     {
       name: "Blessed First Steps Frame",
       description: "Custom photo frame designed to hold baptism photos, with personalized nameplate and blessing inscription.",
-      image: "https://images.unsplash.com/photo-1582562124811-c09040d0a901"
+      // image: "https://images.unsplash.com/photo-1582562124811-c09040d0a901"
     }
   ];
 

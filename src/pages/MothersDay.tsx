@@ -17,7 +17,7 @@ const MothersDay = () => {
     {
       name: "Memory Lane Photo Display",
       description: "Rustic wooden display stand for cherished family photos, with hand-burned quotes about motherhood.",
-      image: "https://images.unsplash.com/photo-1472396961693-142e6e269027"
+      // image: "https://images.unsplash.com/photo-1472396961693-142e6e269027"
     }
   ];
 

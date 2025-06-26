@@ -17,7 +17,7 @@ const Engagement = () => {
     {
       name: "Engagement Celebration Set",
       description: "Romantic collection including champagne flutes, celebration candles, and a memory book for this exciting new chapter.",
-      image: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7"
+      // image: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7"
     }
   ];
 
